@@ -109,6 +109,8 @@ Creates validated and clean tables for analytics using Delta Live Tables:
 - netflix_countries
 - netflix_category
 
+  ![image](https://github.com/user-attachments/assets/01a77d1b-e7ce-492f-adfa-383a234e83d3)
+
 **Validation rule:**
 ```python
 @dlt.expect_all_or_drop({"not_null_id": "show_id IS NOT NULL"})
@@ -121,7 +123,7 @@ Creates validated and clean tables for analytics using Delta Live Tables:
   - newflag IS NOT NULL
   - show_id IS NOT NULL
 
-![image](https://github.com/user-attachments/assets/01a77d1b-e7ce-492f-adfa-383a234e83d3)
+
 
 
 ![image](https://github.com/user-attachments/assets/48d01a0e-b937-4848-b945-bccea46b2187)
