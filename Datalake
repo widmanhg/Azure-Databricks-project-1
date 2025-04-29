@@ -1,0 +1,66 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/7bddff53-9891-4f40-a862-b4d8fc93b0d8/resourceGroups/RG-NetflixProject/providers/Microsoft.Storage/storageAccounts/netflixprojectdlwidman",
+    "name": "netflixprojectdlwidman",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "canadacentral",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2025-04-28T00:04:26.8777694Z",
+            "key2": "2025-04-28T00:04:26.8777694Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "isSftpEnabled": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-04-28T00:04:26.8934372Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-04-28T00:04:26.8934372Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2025-04-28T00:04:26.7995766Z",
+        "primaryEndpoints": {
+            "dfs": "https://netflixprojectdlwidman.dfs.core.windows.net/",
+            "web": "https://netflixprojectdlwidman.z9.web.core.windows.net/",
+            "blob": "https://netflixprojectdlwidman.blob.core.windows.net/",
+            "queue": "https://netflixprojectdlwidman.queue.core.windows.net/",
+            "table": "https://netflixprojectdlwidman.table.core.windows.net/",
+            "file": "https://netflixprojectdlwidman.file.core.windows.net/"
+        },
+        "primaryLocation": "canadacentral",
+        "statusOfPrimary": "available"
+    },
+    "apiVersion": "2022-05-01"
+}
