@@ -1,0 +1,12 @@
+{
+	"name": "datalake_con",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://netflixprojectdlwidman.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA2M0ZFNjk3LUZGN0QtNEFBNS1BOEIxLTY4QjI1NzhGMjc5Ql9hYjdhYWFjYy05NzRmLTQyNWItOTYwMi1mNzI0YTEwZjVkMmYiDQp9"
+		}
+	}
+}

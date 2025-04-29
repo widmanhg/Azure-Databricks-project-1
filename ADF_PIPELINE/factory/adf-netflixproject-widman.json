@@ -1,0 +1,9 @@
+{
+	"name": "adf-netflixproject-widman",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "73781635-f1b4-4719-93e8-bd4e9ada1bea",
+		"tenantId": "3d4e2ecb-7569-49f6-9d47-34c2d33c6395"
+	}
+}
