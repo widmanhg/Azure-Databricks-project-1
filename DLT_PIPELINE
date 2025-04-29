@@ -1,0 +1,28 @@
+{
+    "id": "2ad37c2a-7bf9-4af5-9fc6-b0ceb565f671",
+    "pipeline_type": "WORKSPACE",
+    "clusters": [
+        {
+            "label": "default",
+            "node_type_id": "Standard_D4s_v3",
+            "driver_node_type_id": "Standard_D4s_v3",
+            "num_workers": 1
+        }
+    ],
+    "development": true,
+    "continuous": false,
+    "channel": "CURRENT",
+    "photon": false,
+    "libraries": [
+        {
+            "notebook": {
+                "path": "/Users/gerardohernandezwidman@wodman.onmicrosoft.com/Netflix_project/7_gold"
+            }
+        }
+    ],
+    "name": "DLT_GOLD",
+    "edition": "ADVANCED",
+    "catalog": "netflix_catalog",
+    "schema": "dlt_schema",
+    "data_sampling": false
+}
